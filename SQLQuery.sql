@@ -17,3 +17,5 @@ Create Table agenda(--para crear una tabla en la base de datos.
  drop table agenda;--para borrar una tabla de la base de datos.
  select * from agenda;--para ver lo que contiene la tabla.
  insert into agenda(apellido,nombre,domicilio,telefono) values('ovalles','Dari','Tenares','8093243232');--para insertar en una tabla
+
+ update agenda set apellido = 'Gonzalez' where apellido = 'ovalles';
